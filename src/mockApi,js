@@ -1,0 +1,64 @@
+
+export function fetchTransactions() {
+    const data = [
+        {
+            id: 1,
+            customerId: 1,
+            name: "Bala",
+            amount: 120,
+            date: "2025-01-15",
+            transactionId: "TXN-1001",
+            category: "Electronics"
+        },
+        {
+            id: 2,
+            customerId: 1,
+            name: "Bala",
+            amount: 75,
+            date: "2025-01-25",
+            transactionId: "TXN-1002",
+            category: "Groceries"
+        },
+        {
+            id: 3,
+            customerId: 1,
+            name: "Bala",
+            amount: 200,
+            date: "2025-02-10",
+            transactionId: "TXN-1003",
+            category: "Furniture"
+        },
+        {
+            id: 4,
+            customerId: 2,
+            name: "Krishna",
+            amount: 90,
+            date: "2025-01-10",
+            transactionId: "TXN-2001",
+            category: "Clothing"
+        },
+        {
+            id: 5,
+            customerId: 2,
+            name: "Krishna",
+            amount: 110,
+            date: "2025-02-12",
+            transactionId: "TXN-2002",
+            category: "Electronics"
+        },
+        {
+            id: 6,
+            customerId: 2,
+            name: "Krishna",
+            amount: 130,
+            date: "2025-03-05",
+            transactionId: "TXN-2003",
+            category: "Home Appliances"
+        }
+    ];
+
+
+    return new Promise(resolve => {
+        setTimeout(() => resolve(data), 1000);
+    });
+}

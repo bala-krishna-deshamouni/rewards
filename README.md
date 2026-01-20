@@ -3,7 +3,8 @@
 ## Total Points by Customer
 Display total reward points by Customer 
 
-### Filter the below records byt month. 
+### Filter the below records by month. 
+
 ## All Transactions
 Display all the transactions available including the reward points earned for each transaction.
 

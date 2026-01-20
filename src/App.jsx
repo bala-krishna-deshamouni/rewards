@@ -41,9 +41,9 @@ function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Account Transactions and Reward Points</h1>
+      <h1>Customer Transactions and Reward Points</h1>
 
-      <h2>Total Points by Account</h2>
+      <h2>Total Points by Customer</h2>
       <table border="1" cellPadding="10" cellSpacing="0" style={{ marginBottom: 50 }}>
         <thead>
           <tr>
@@ -109,7 +109,7 @@ function App() {
         </tbody>
       </table>
 
-      <h2>Reward Points by Account and month</h2>
+      <h2>Reward Points by Customer and month</h2>
       <table border="1" cellPadding="10" cellSpacing="0" style={{ marginTop: 20, width: "100%" }}>
         <thead>
           <tr>
@@ -133,8 +133,6 @@ function App() {
           ))}
         </tbody>
       </table>
-
-      
     </div>
   );
 }
